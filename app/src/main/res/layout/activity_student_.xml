@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Student_Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="91dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/scourse" />
+    <Button
+        android:id="@+id/bt_courses"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:text="COURSES">
+    </Button>
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="91dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/bookss" />
+
+    <Button
+        android:id="@+id/bt_book"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:text="BOOKS">
+
+    </Button>
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="91dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/sdownload" />
+    <Button
+        android:id="@+id/bt_download"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:text="MY DOWNLOAD">
+
+    </Button>
+
+</LinearLayout>
